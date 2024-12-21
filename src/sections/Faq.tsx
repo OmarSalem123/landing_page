@@ -16,7 +16,7 @@ const Faq = () => {
               You've got questions, we've got answers.
             </p>
           </div>
-          <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 z-1 bg-s2" />
+          <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2" />
         </div>
         <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1">
           <div className="container flex gap-10 max-lg:block">
@@ -30,7 +30,7 @@ const Faq = () => {
                   id={item.id}
                   question={item.question}
                   answer={item.answer}
-                  index={index}
+                  index={index + 1}
                 />
               ))}
             </div>
@@ -41,7 +41,7 @@ const Faq = () => {
                   id={item.id}
                   question={item.question}
                   answer={item.answer}
-                  index={halfLength + index}
+                  index={halfLength + index + 1}
                 />
               ))}
             </div>
