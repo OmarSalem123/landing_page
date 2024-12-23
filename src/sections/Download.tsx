@@ -7,7 +7,7 @@ const Download = () => {
     <section>
       <Element
         name="Download"
-        className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
+        className="relative pt-24 pb-32 g7 max-lg:pb-24 max-md:py-16"
       >
         <div className="container">
           <div className="flex items-center">
@@ -19,7 +19,7 @@ const Download = () => {
                   height={55}
                   alt="xora"
                 />
-                <p className="body-1 mb-10 max-w-md">
+                <p className="max-w-md mb-10 body-1">
                   Try it now for free on IOS, Andrioid, PC, Web -whatever your
                   flavor we&apos;ve got you covered
                 </p>
@@ -31,9 +31,10 @@ const Download = () => {
                     >
                       <a
                         href={url}
-                        className="size-22 download_tech-icon_before relative flex items-center justify-center rounded-half border-2 border-s3 bg-s1 transition-borderColor duration-500"
+                        target="_blank"
+                        className="relative flex items-center justify-center duration-500 border-2 size-22 download_tech-icon_before rounded-half border-s3 bg-s1 transition-borderColor"
                       >
-                        <span className="absolute -top-2 rotate-90">
+                        <span className="absolute rotate-90 -top-2">
                           <Marker />
                         </span>
                         <img
@@ -50,7 +51,7 @@ const Download = () => {
             </div>
             <div className="mb-10 max-md:hidden">
               <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
-                <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14">
+                <div className="relative px-6 pb-6 rounded-3xl bg-s1 pt-14">
                   <span className="download_preview-dot left-6 bg-p2" />
                   <span className="download_preview-dot left-11 bg-s3" />
                   <span className="download_preview-dot left-16 bg-p1/15" />
@@ -65,7 +66,7 @@ const Download = () => {
               </div>
             </div>
           </div>
-          <ul className="mt-24 flex justify-center max-lg:hidden">
+          <ul className="flex justify-center mt-24 max-lg:hidden">
             {logos.map(({ id, url, width, height, title }) => (
               <li key={id} className="mx-10">
                 <img src={url} width={width} height={height} alt={title} />

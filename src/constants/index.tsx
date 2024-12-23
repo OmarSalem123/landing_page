@@ -379,51 +379,51 @@ export const links = [
     id: "0",
     title: "Ios",
     icon: <Ios />,
-    url: "#",
+    url: "https://webx-team.com/",
   },
   {
     id: "1",
     title: "Android",
     icon: <Android />,
-    url: "#",
+    url: "https://webx-team.com/",
   },
   {
     id: "2",
     title: "Windows",
     icon: <Windows />,
-    url: "#",
+    url: "https://webx-team.com/",
   },
   {
     id: "3",
     title: "Web",
     icon: <Web />,
-    url: "#",
+    url: "https://webx-team.com/",
   },
 ];
 
 export const socials = [
   {
     id: "0",
-    title: "x",
-    icon: "/images/socials/x.svg",
-    url: "#",
+    title: "LinkedIn",
+    icon: "/images/socials/linkedin2.svg",
+    url: "https://www.linkedin.com/in/omar-salem-27947a173/",
   },
   {
     id: "1",
     title: "Threads",
     icon: "/images/socials/threads.svg",
-    url: "#",
+    url: "https://webx-team.com/",
   },
   {
     id: "2",
     title: "Instagram",
     icon: "/images/socials/instagram.svg",
-    url: "#",
+    url: "https://www.instagram.com/omar.a.ramdan/?igsh=YzR1d3k0dWRobXVm#",
   },
   {
     id: "3",
     title: "Discord",
     icon: "/images/socials/discord.svg",
-    url: "#",
+    url: "https://webx-team.com/",
   },
 ];
